@@ -12,15 +12,16 @@ struct CantorView: View {
         HStack {
             Image("paul")
                 .resizable()
-            
-                .frame(width: 250, height: 300, alignment: .leading)
-//                .padding(.leading, )
-            
+                .scaledToFill()
+                .frame(width: 250, height: 350, alignment: .leading)
+                .padding(.leading, -20 )
+            Spacer()
             VStack {
                 Text("Paul")
                     .font(.title)
                     .foregroundColor(.black)
-                    .padding(.trailing, 70)
+//                    .padding(.trailing, 70)
+//                    .padding(.leading)
                 
             }
             

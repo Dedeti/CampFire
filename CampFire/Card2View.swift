@@ -16,10 +16,13 @@ struct Card2View: View {
                 Text("IGHWAY")
                     .font(.largeTitle)
             } .bold()
+                .foregroundColor(.white)
         }
         .frame(width: 300, height: 170)
-            .background(Color("gradblue"))
+//        .background(Color("azulEscuro"))
+        .background(.linearGradient(colors: [Color("gradblue"),Color("azulEscuro")], startPoint: .leading, endPoint: .trailing))
             .shadow(radius: 5)
+        
     }
 }
 

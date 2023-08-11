@@ -41,7 +41,6 @@
 		DC8428D02A869ED000F3FF09 = {
 			isa = PBXGroup;
 			children = (
-				DC4223812A86AC0100D08546 /* CardFinal.swift */,
 				DC8428DB2A869ED000F3FF09 /* CampFire */,
 				DC8428DA2A869ED000F3FF09 /* Products */,
 			);
@@ -62,6 +61,7 @@
 				DC8428DE2A869ED000F3FF09 /* ContentView.swift */,
 				DC8428EA2A86A08F00F3FF09 /* CardView.swift */,
 				DC42237F2A86A83400D08546 /* Card2View.swift */,
+				DC4223812A86AC0100D08546 /* CardFinal.swift */,
 				DC8428E02A869ED100F3FF09 /* Assets.xcassets */,
 				DC8428E22A869ED100F3FF09 /* Preview Content */,
 			);

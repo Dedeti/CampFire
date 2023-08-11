@@ -9,13 +9,25 @@ import SwiftUI
 
 struct CantorView: View {
     var body: some View {
-        HStack{
+        HStack {
             Image("paul")
-            VStack{
+                .resizable()
+            
+                .frame(width: 250, height: 300, alignment: .leading)
+//                .padding(.leading, )
+            
+            VStack {
                 Text("Paul")
-                    .font(.)
+                    .font(.title)
+                    .foregroundColor(.black)
+                    .padding(.trailing, 70)
+                
             }
+            
         }
+        .frame(width: 400, height: 350)
+        .background(.gray)
+        
     }
 }
 

@@ -14,14 +14,16 @@ struct CantorView: View {
                 .resizable()
                 .scaledToFill()
                 .frame(width: 250, height: 350, alignment: .leading)
-                .padding(.leading, -20 )
+                .padding(.leading, -20)
+               
             Spacer()
             VStack {
                 Text("Paul")
                     .font(.title)
                     .foregroundColor(.black)
 //                    .padding(.trailing, 70)
-//                    .padding(.leading)
+                    .padding(.trailing, 50)
+                    Text(
                 
             }
             

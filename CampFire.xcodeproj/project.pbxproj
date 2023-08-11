@@ -10,6 +10,8 @@
 		DC4223802A86A83400D08546 /* Card2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC42237F2A86A83400D08546 /* Card2View.swift */; };
 		DC4223822A86AC0100D08546 /* CardFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4223812A86AC0100D08546 /* CardFinal.swift */; };
 		DC4223862A86B18000D08546 /* CantorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4223852A86B18000D08546 /* CantorView.swift */; };
+		DC4223882A86C70400D08546 /* CreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4223872A86C70400D08546 /* CreditCardView.swift */; };
+		DC42238A2A86C8BC00D08546 /* CartonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4223892A86C8BC00D08546 /* CartonView.swift */; };
 		DC8428DD2A869ED000F3FF09 /* CampFireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8428DC2A869ED000F3FF09 /* CampFireApp.swift */; };
 		DC8428DF2A869ED000F3FF09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8428DE2A869ED000F3FF09 /* ContentView.swift */; };
 		DC8428E12A869ED100F3FF09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8428E02A869ED100F3FF09 /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 		DC42237F2A86A83400D08546 /* Card2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card2View.swift; sourceTree = "<group>"; };
 		DC4223812A86AC0100D08546 /* CardFinal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFinal.swift; sourceTree = "<group>"; };
 		DC4223852A86B18000D08546 /* CantorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CantorView.swift; sourceTree = "<group>"; };
+		DC4223872A86C70400D08546 /* CreditCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardView.swift; sourceTree = "<group>"; };
+		DC4223892A86C8BC00D08546 /* CartonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartonView.swift; sourceTree = "<group>"; };
 		DC8428D92A869ED000F3FF09 /* CampFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8428DC2A869ED000F3FF09 /* CampFireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampFireApp.swift; sourceTree = "<group>"; };
 		DC8428DE2A869ED000F3FF09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +50,8 @@
 				DC8428EA2A86A08F00F3FF09 /* CardView.swift */,
 				DC42237F2A86A83400D08546 /* Card2View.swift */,
 				DC4223812A86AC0100D08546 /* CardFinal.swift */,
+				DC4223872A86C70400D08546 /* CreditCardView.swift */,
+				DC4223892A86C8BC00D08546 /* CartonView.swift */,
 			);
 			name = "CartãoDeVisita";
 			path = "CartãoDeVisita";
@@ -170,6 +176,8 @@
 				DC4223802A86A83400D08546 /* Card2View.swift in Sources */,
 				DC8428EB2A86A08F00F3FF09 /* CardView.swift in Sources */,
 				DC4223862A86B18000D08546 /* CantorView.swift in Sources */,
+				DC4223882A86C70400D08546 /* CreditCardView.swift in Sources */,
+				DC42238A2A86C8BC00D08546 /* CartonView.swift in Sources */,
 				DC8428DD2A869ED000F3FF09 /* CampFireApp.swift in Sources */,
 				DC4223822A86AC0100D08546 /* CardFinal.swift in Sources */,
 			);

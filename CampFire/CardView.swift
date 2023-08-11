@@ -14,30 +14,33 @@ struct CardView: View {
             HStack {
                 Text("Harold Garcia")
             }
-            .padding(.vertical)
+            .padding(.vertical, 10)
             
             HStack{
                 Text("Delivery Staff")
                     .rotationEffect(.degrees(270))
-                    .font(.caption)
+                    .font(.caption2)
+                    .padding(.horizontal, -23)
 
                 
                 Image(systemName: "command")
                     .font(.largeTitle)
-//                    .padding(.horizontal)
-                Spacer()
+                    .padding(.horizontal, 90)
+                    .padding(.vertical, 20)
                     
                 Text("Delivery Staff")
                     .rotationEffect(.degrees(90))
-                    .font(.caption)
+                    .font(.caption2)
+                    .padding(.horizontal, -23)
+
                 
             }
             
-            Text("web: www.highway.com")
-                .font(.caption)
+            Text(verbatim: "web: www.highway.com")
+                .font(.system(size: 10))
             Text("tel: 130-704-5777")
-                .font(.caption)
-            
+                .font(.system(size: 10))
+
             
         } .frame(width: 300, height: 170)
         .background(.gray)

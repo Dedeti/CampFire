@@ -43,7 +43,8 @@ struct CardView: View {
 
             
         } .frame(width: 300, height: 170)
-        .background(.gray)
+            .background(Color("cinza"))
+            .shadow(radius: 5)
     }
 }
 
